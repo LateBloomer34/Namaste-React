@@ -1,0 +1,63 @@
+1- what is react?
+    react is a library, which is use for design UI,
+2- why react is called react?
+    it reacts only when changes in element.
+
+3- what is CDN?
+content delivery netwrok - network which delivers content from one location to another location.
+ 
+
+4- what is the diff between library and framework?
+    library is the prewritten code base having some functionality, it is the combination of multiple package.
+
+    freamework is also group of multiple codebase , but having its ownn architecture.
+
+5-what is emmet?
+emmet is the webtool, helps developer to write or edit the code 
+
+6- what is boilerplate?
+boilerplate is the resuable predefined code , which requires no or minimal edit .
+
+
+7 -  what is react element - react element is an object , which cosist the property of react element.
+
+ 8 - how react element render in DOM . 
+ reactDOM library renders the elmeent 
+
+ 9- use of root -  root tells us where we put the stuff.
+
+ 10-  can we have multiple root ; 
+ no , we have only root and only render in a single application.
+
+
+ 11- what is the diff between asynch and differ attribute in html?
+ Asynch -  code run in asynch order,
+
+ first the html code parse, when js code comes- 
+ html parsing and js code fetch done parallely,
+ after js code fetch when js code execution started, html parsing will paused, after js execution done reamining html parsing will resume.
+
+ defer -  js code fetch and html parsing synchronousy, 
+ but the js statemnt started executing when, html parsing done only, 
+
+ when no asynch and defer- html parsing going on , when js code comes, html parsing paused, js code will start to fetch,
+ after fetching js code, js code execution will start,
+ when execution completed, remaining html code will parse.
+
+
+ 12- build using react - 
+
+ <body>
+ <div if = "root> not render</div>
+
+<div>
+<h1>heading 1</h1>
+<h2>heading 2</h2>
+ </body>
+
+
+ 13- diff between devlopment and production code - 
+
+ both code are similar , but production code are much optimized ; files size is lesser for fast response.
+
+ 

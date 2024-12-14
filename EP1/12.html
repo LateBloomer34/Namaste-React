@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div id="root">not rendered</div>
+<!-- 
+<div>
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+</div> -->
+
+
+
+<!-- load the react from cdn -->
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+
+<script>
+
+
+
+let h1 = React.createElement("h1" , {} , "heading 1");
+let h2 = React.createElement("h2" , {} , "heading 2");
+
+let dv = React.createElement("h2" , {d : "container"} , [h1 , h2]);
+
+let des = ReactDOM.createRoot(document.getElementById("root"));
+
+des.render(dv);
+
+</script>
+
+
+
+
+
+</body>
+</html>
