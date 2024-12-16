@@ -1,0 +1,36 @@
+<!-- create a hello world using react , using CDN
+
+        //what is CDN - CDN is content delivery netwrok, A network of server which delivers contentto user based on users location.
+
+ step 1 - import rect and react dom from CDN website.
+step 2 - create a script tag inside this script tag - 1- createElement using react.
+        2- access destination using reactDOM.
+        3- render content in destination. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+<body>
+        <div class="first"></div>
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<script>
+// 1- create react element - react element is hust an object 
+
+let content = React.createElement("h1",{},"hello world");
+
+// step 2 - access destination
+let desti = ReactDOM.createRoot(document.querySelector(".first"));
+
+//step 3 - render the element in UI
+desti.render(content);
+
+</script>
+</body>
+</html>
+

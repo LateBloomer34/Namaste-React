@@ -1,0 +1,67 @@
+
+<!-- Hello world using HTML  -->
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>hello world using HTML</div>
+    
+</body>
+</html> 
+-->
+
+
+<!-- hello world using js -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+        let con = document.createElement("h1");
+        con.innerHTML = "hello world using JS";
+        let des = document.querySelector("body");
+        des.appendChild(con);
+    </script>
+
+</body>
+</html> -->
+
+
+<!-- hello world using React CDN --> 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="first"></div>
+    
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script>
+        let con  = React.createElement("h1" , {}, "hello world using REACT");
+        let des = ReactDOM.createRoot(document.querySelector(".first"));
+        des.render(con);
+    </script>
+
+</body>
+</html>
+
