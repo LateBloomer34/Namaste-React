@@ -1,0 +1,31 @@
+npm init  - package.json created
+npm install parcel - node module (put in git ignore),  package-lock.json created.
+npm install react
+npx parcel index.html -  dist and .parcel-cache folder created (no need to put in gitignore)
+
+
+1- install npm into react repo:-
+npm init
+
+2-   - install `react` and `react-dom` 
+npm install react
+npm install ReactDOM
+
+3-  remove CDN links of react
+import React from "react";
+import ReactDOM from "react-dom/cliect"
+
+4-  install parcel
+npm install parcel
+
+5-  ignite your app with parcel
+npx parcel index.html
+
+6-  add `.gitignore` file
+create a folder .gotignore, put inside the file or folder or media file
+
+7-  add `browserlists
+add browswerlist in package.json
+
+8-  build a production version of your code using `parcel build`.
+npx parcel build index.html
